@@ -66,11 +66,6 @@ h2{
   box-shadow:0 6px 18px rgba(0,0,0,0.25);
 }
 
-/* Social Button Colors */
-.facebook { background:#1877f2; }
-.instagram { background:#e1306c; }
-.linkedin { background:#0a66c2; }
-
 hr{
   border:none;
   border-top:1px solid #ddd;
@@ -87,6 +82,37 @@ hr{
   font-size:14px;
   color:#333;
   line-height:1.6;
+}
+
+/* 🔥 Small Square-Round Social Icons */
+.social-icons{
+  display:flex;
+  justify-content:center;
+  gap:12px;
+  margin-top:15px;
+}
+
+.social-icons a{
+  width:40px;
+  height:40px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:10px;
+  color:#fff;
+  font-size:16px;
+  transition:0.3s;
+}
+
+/* Brand Colors */
+.facebook{ background:#1877f2; }
+.instagram{ background:#e1306c; }
+.linkedin{ background:#0a66c2; }
+
+/* Hover Effect */
+.social-icons a:hover{
+  transform:translateY(-3px) scale(1.08);
+  box-shadow:0 8px 18px rgba(0,0,0,0.25);
 }
 </style>
 </head>
@@ -122,19 +148,6 @@ hr{
     <i class="fa-solid fa-globe"></i> Website
   </a>
 
-  <!-- Social Media Buttons (Your Links Added) -->
-  <a class="btn facebook" href="https://www.facebook.com/share/1D7wAZ8kVa/?mibextid=wwXIfr" target="_blank">
-    <i class="fa-brands fa-facebook-f"></i> Facebook
-  </a>
-
-  <a class="btn instagram" href="https://www.instagram.com/canevibebio?igsh=MWlnc3FwMGJ6N3JneA%3D%3D&utm_source=qr" target="_blank">
-    <i class="fa-brands fa-instagram"></i> Instagram
-  </a>
-
-  <a class="btn linkedin" href="https://www.linkedin.com/in/canevibe-bio-export-1a72223ab" target="_blank">
-    <i class="fa-brands fa-linkedin-in"></i> LinkedIn
-  </a>
-
   <hr>
 
   <div class="section-title">About</div>
@@ -147,6 +160,21 @@ hr{
   <div class="section-title">Services</div>
   <div class="services">
     100% Biodegradable & Compostable Products Made from Sugarcane Bagasse
+  </div>
+
+  <!-- 🔥 Social Icons -->
+  <div class="social-icons">
+    <a class="facebook" href="https://www.facebook.com/share/1D7wAZ8kVa/?mibextid=wwXIfr" target="_blank">
+      <i class="fa-brands fa-facebook-f"></i>
+    </a>
+
+    <a class="instagram" href="https://www.instagram.com/canevibebio?igsh=MWlnc3FwMGJ6N3JneA%3D%3D&utm_source=qr" target="_blank">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+
+    <a class="linkedin" href="https://www.linkedin.com/in/canevibe-bio-export-1a72223ab" target="_blank">
+      <i class="fa-brands fa-linkedin-in"></i>
+    </a>
   </div>
 
 </div>
